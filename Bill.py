@@ -3,7 +3,7 @@ cr=int(input("Enter Current Reading:"))
 pr=int(input("Enter Previous Reading:"))
 u=cr-pr
 print("Unit Consume:",u)
-if u<=100:
+if u <= 100:
     uc=5.79
 elif u>100 and u<=200:
     uc=8.11
@@ -14,4 +14,4 @@ elif u>301 and u<=700:
 else:
     uc=20.70
 print("Cost Per Unit:",uc)
-print("Total Electricity Cost:",u*uc)
+print("Electricity Cost:",u*uc)
