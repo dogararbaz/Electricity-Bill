@@ -1,4 +1,4 @@
-print("\t Electricity Bill\n")
+print("\n\t\t Electricity Bill\n")
 cr=int(input("Enter Current Reading:"))
 pr=int(input("Enter Previous Reading:"))
 u=cr-pr
@@ -23,8 +23,8 @@ print("TV-Fee:35")
 gst=ec*0.35
 print("GST:",gst)
 njs=ec*0.012
-print("NJS:",njs)
+print("NJS:",njs)    # I am not Confirm This Rate Please Change It When You Sure
 sur=ec*0.05
-print("FC-SUR:",sur)
+print("FC-SUR:",sur) # I am not Confirm This Rate Please Change It When You Sure
 total=ec+e+35+gst+njs+sur
 print("Total Payable Bill:",total)
