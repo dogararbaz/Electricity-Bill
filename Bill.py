@@ -22,8 +22,8 @@ print("E-Duty:",e)
 print("TV-Fee:35")
 gst=ec*0.35
 print("GST:",gst)
-njs=ec*0.012
-print("NJS:",njs)    # I am not Confirm This Rate Please Change It When You Confirm
+njs=ec*0.01
+print("NJS:",njs)    
 sur=ec*0.05
 print("FC-SUR:",sur) # I am not Confirm This Rate Please Change It When You Confirm
 total=ec+e+35+gst+njs+sur
