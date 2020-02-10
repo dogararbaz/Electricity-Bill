@@ -25,6 +25,6 @@ print("GST:",gst)
 njs=ec*0.01
 print("NJS:",njs)    
 sur=ec*0.05
-print("FC-SUR:",sur) # I am not Confirm This Rate Please Change It When You Confirm
+print("FC-SUR:",sur) # I am not Confirm This Rate Please Change It When You Confirm.
 total=ec+e+35+gst+njs+sur
 print("Total Payable Bill:",total)
