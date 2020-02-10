@@ -1,4 +1,4 @@
-print("\t Electricity Bill")
+print("\t Electricity Bill\n")
 cr=int(input("Enter Current Reading:"))
 pr=int(input("Enter Previous Reading:"))
 u=cr-pr
@@ -14,4 +14,17 @@ elif u>301 and u<=700:
 else:
     uc=20.70
 print("Cost Per Unit:",uc)
-print("Electricity Cost:",u*uc)
+ec=uc*u
+print("Electricity Cost:",ec)
+print("\n\t\t\tTaxes & Others\n")
+e=ec*0.015
+print("E-Duty:",e)
+print("TV-Fee:35")
+gst=ec*0.35
+print("GST:",gst)
+njs=ec*0.012
+print("NJS:",njs)
+sur=ec*0.05
+print("FC-SUR:",sur)
+total=ec+e+35+gst+njs+sur
+print("Total Payable Bill:",total)
